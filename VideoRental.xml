@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<customers>
+    <customer customer_no="222456777">
+        <customer_type>Member</customer_type>
+        <first_name>John</first_name>
+        <middle_name>Bob</middle_name>
+        <last_name>Cena</last_name>
+        <birthDate>01/01/1991</birthDate>
+        <race>White</race>
+        <gender>Male</gender>
+        <marital_status>Single</marital_status>
+        <main_phone>2083130319</main_phone>
+        <alternate_phone>2083130318</alternate_phone>
+        <street1>Streetname 3</street1>
+        <street2>Streetname 2</street2>
+        <city>Los Angeles</city>
+        <state>CA</state>
+        <zipcode>90210</zipcode>
+        <invoices>
+            <invoice invoice_no="912347843">
+                <invoice_date>09/21/2004</invoice_date>
+                <checkout_date>09/21/2004</checkout_date>
+                <rental_type>3-Day Rental</rental_type>
+                <invoice_type>Purchase</invoice_type>
+                <payment_type>Card</payment_type>
+                <paid>Yes</paid>
+                <tax>4</tax>
+                <totalPrice>234</totalPrice>
+                <organization organization_no="1244">    
+                    <organization_name>Human Resources</organization_name>
+                    <organization_status>Open</organization_status>
+                    <phone>2083130319</phone>
+                    <street1>Nice St 2</street1>
+                    <street2>School Ln 12</street2>
+                    <city>Rexburg</city>
+                    <state>ID</state>
+                    <zipcode>83440</zipcode>
+                </organization>
+                <employee employee_no="5022">
+                    <ssn>1234567890</ssn>
+                    <employee_type>Cashier</employee_type>
+                    <first_name>Matt</first_name>
+                    <middle_name>Isaac</middle_name>
+                    <last_name>Johnson</last_name>
+                    <work_phone>2084567890</work_phone>
+                    <employee_photo>image.jpg</employee_photo>
+                </employee>
+                <rentals>
+                    <rental_item>
+                        <purchase_price>20</purchase_price>
+                        <item asin="77792">
+                            <release_date>07/08/2001</release_date>
+                            <due_date>07/09/2002</due_date>
+                            <return_date>07/09/2002</return_date>
+                            <title>Lord of the Rings</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/image.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Action</genre>
+                            <inventory_no>329</inventory_no>
+                            <inventory_type>Rental</inventory_type>
+                            <inventory_status>Rented</inventory_status>
+                        </item>
+                    </rental_item>
+                    <rental_item>
+                        <purchase_price>30</purchase_price>
+                        <item asin="77793">
+                            <release_date>09/12/2004</release_date>
+                            <due_date>11/04/2021</due_date>
+                            <return_date>11/05/2017</return_date>
+                            <title>Lord of the Rings</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/image.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Action</genre>
+                            <inventory_no>429</inventory_no>
+                            <inventory_type>Rental</inventory_type>
+                            <inventory_status>Open</inventory_status>
+                        </item>
+                    </rental_item>
+                </rentals>
+            </invoice>
+            <invoice invoice_no="321654987">
+                <invoice_date>04/02/2008</invoice_date>
+                <checkout_date>04/02/2008</checkout_date>
+                <rental_type>4-Day Rental</rental_type>
+                <invoice_type>Purchase</invoice_type>
+                <payment_type>Card</payment_type>
+                <paid>Y</paid>
+                <tax>4</tax>
+                <totalPrice>234</totalPrice>
+                <organization organization_no="1344">
+                    <organization_name>Human Resources</organization_name>
+                    <organization_status>Open</organization_status>
+                    <phone>2083130319</phone>
+                    <street1>Nice St 2</street1>
+                    <street2>School Ln 12</street2>
+                    <city>Rexburg</city>
+                    <state>ID</state>
+                    <zipcode>83440</zipcode>
+                </organization>
+                <employee employee_no="5040">
+                    <ssn>20932</ssn>
+                    <employee_type>cashier</employee_type>
+                    <first_name>Billy</first_name>
+                    <middle_name>Bob</middle_name>
+                    <last_name>Johnson</last_name>
+                    <work_phone>2083130317</work_phone>
+                    <employee_photo>http://www.google.com/this.jpg</employee_photo>
+                </employee>
+                <rentals>
+                    <rental_item>
+                        <purchase_price>25</purchase_price>
+                        <item item_no="90012">
+                            <release_date>06/17/2011</release_date>
+                            <due_date>05/03/2011</due_date>
+                            <return_date>01/01/2011</return_date>
+                            <title>Spiderman</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/spiderman.jpg</image_url>
+                            <rating>R-Rated</rating>
+                            <genre>Action</genre>
+                        </item>
+                    </rental_item>
+                    <rental_item>
+                        <purchase_price>21</purchase_price>
+                        <item item_no="90043">
+                            <due_date>04/02/2018</due_date>
+                            <return_date>04/01/2018</return_date>
+                            <release_date>10/04/2015</release_date>
+                            <title>Lord of the Rings</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/image.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Action</genre>
+                        </item>
+                    </rental_item>
+                </rentals>
+            </invoice>
+        </invoices>
+    </customer>
+    <customer customer_no="232456817">
+        <customer_type>Member</customer_type>
+        <first_name>Michael</first_name>
+        <middle_name>Ray</middle_name>
+        <last_name>Jackson</last_name>
+        <birthDate>09/03/1971</birthDate>
+        <race>Black</race>
+        <gender>Male</gender>
+        <marital_status>Married</marital_status>
+        <main_phone>2083130314</main_phone>
+        <alternate_phone>2083130313</alternate_phone>
+        <street1>Neverland 1</street1>
+        <street2>Funstreet 14</street2>
+        <city>Memphis</city>
+        <state>TN</state>
+        <zipcode>83440</zipcode>
+        <invoices>
+            <invoice invoice_no="221655487">
+                <invoice_date>12/30/2008</invoice_date>
+                <checkout_date>12/30/2008</checkout_date>
+                <rental_type>5-Day Rental</rental_type>
+                <invoice_type>Rental</invoice_type>
+                <payment_type>Cash</payment_type>
+                <paid>Yes</paid>
+                <tax>4</tax>
+                <totalPrice>100</totalPrice>
+                <organization organization_no="1199">    
+                    <organization_name>Sales</organization_name>
+                    <organization_status>Open</organization_status>
+                    <phone>2083130311</phone>
+                    <street1>Hello St 4</street1>
+                    <street2>Morning Ln 84</street2>
+                    <city>Idaho Falls</city>
+                    <state>ID</state>
+                    <zipcode>83460</zipcode>
+                </organization>
+                <employee employee_no="2304">
+                    <ssn>1234567890</ssn>
+                    <employee_type>Cashier</employee_type>
+                    <first_name>Matt</first_name>
+                    <middle_name>Isaac</middle_name>
+                    <last_name>Johnson</last_name>
+                    <work_phone>2084567890</work_phone>
+                    <employee_photo>image.jpg</employee_photo>
+                </employee>
+                <rentals>
+                    <rental_item>
+                        <purchase_price>35</purchase_price>
+                        <item asin="90000">
+                            <release_date>03/01/2004</release_date>
+                            <due_date>03/05/2004</due_date>
+                            <return_date>03/04/2004</return_date>
+                            <title>Batman</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/image.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Action</genre>
+                            <inventory_no>420</inventory_no>
+                            <inventory_type>Rental</inventory_type>
+                            <inventory_status>Rented</inventory_status>
+                        </item>
+                    </rental_item>
+                    <rental_item>
+                        <purchase_price>90</purchase_price>
+                        <item asin="99992">
+                            <release_date>11/20/2005</release_date>
+                            <due_date>12/08/2008</due_date>
+                            <return_date>11/05/2017</return_date>
+                            <title>Shooter</title>
+                            <media_type>Stream</media_type>
+                            <image_url>http://www.image.com/image.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Action</genre>
+                            <inventory_no>111</inventory_no>
+                            <inventory_type>Rental</inventory_type>
+                            <inventory_status>Open</inventory_status>
+                        </item>
+                    </rental_item>
+                </rentals>
+            </invoice>
+            <invoice invoice_no="999655167">
+                <invoice_date>04/02/2001</invoice_date>
+                <checkout_date>04/04/2002</checkout_date>
+                <rental_type>1-Day Rental</rental_type>
+                <invoice_type>Rental</invoice_type>
+                <payment_type>Card</payment_type>
+                <paid>Y</paid>
+                <tax>8</tax>
+                <totalPrice>120</totalPrice>
+                <organization organization_no="4222">
+                    <organization_name>Human Resources</organization_name>
+                    <organization_status>Open</organization_status>
+                    <phone>2083130319</phone>
+                    <street1>Nice St 2</street1>
+                    <street2>School Ln 12</street2>
+                    <city>Rexburg</city>
+                    <state>ID</state>
+                    <zipcode>83440</zipcode>
+                </organization>
+                <employee employee_no="2399">
+                    <ssn>2134567980</ssn>
+                    <employee_type>Cashier</employee_type>
+                    <first_name>Mark</first_name>
+                    <middle_name>Travis</middle_name>
+                    <last_name>Wahlberg</last_name>
+                    <work_phone>2083130217</work_phone>
+                    <employee_photo>http://www.google.com/this.jpg</employee_photo>
+                </employee>
+                <rentals>
+                    <rental_item>
+                        <purchase_price>55</purchase_price>
+                        <item item_no="91223">
+                            <release_date>11/11/2016</release_date>
+                            <due_date>12/02/2018</due_date>
+                            <return_date>11/06/2018</return_date>
+                            <title>Fantastic Beasts</title>
+                            <media_type>Stream</media_type>
+                            <image_url>http://www.image.com/harrypotter.jpg</image_url>
+                            <rating>PG-13</rating>
+                            <genre>Adventure</genre>
+                        </item>
+                    </rental_item>
+                    <rental_item>
+                        <purchase_price>40</purchase_price>
+                        <item item_no="90009">
+                            <due_date>09/09/2012</due_date>
+                            <return_date>03/02/2012</return_date>
+                            <release_date>11/04/2015</release_date>
+                            <title>Ben-Hur</title>
+                            <media_type>DVD</media_type>
+                            <image_url>http://www.image.com/benhur.jpg</image_url>
+                            <rating>R-Rated</rating>
+                            <genre>Adventure</genre>
+                        </item>
+                    </rental_item>
+                </rentals>
+            </invoice>
+        </invoices>
+    </customer>
+</customers>
